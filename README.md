@@ -35,8 +35,6 @@ This is a Node.js application that helps users manage an employee database for a
 
 [employee-tracker](https://github.com/amarfiguig/12-SQL-Employee-Tracker)
 
-[![employee-tracker](assets/images/screenshot.png)](https://github.com/amarfiguig/12-SQL-Employee-Tracker)
-
 ## Questions
 
 Please don't hesitate to contact me if you have any further questions or concerns. You can reach me at:
@@ -44,10 +42,13 @@ Please don't hesitate to contact me if you have any further questions or concern
 <br>
 Email: myfiguig@gmail.com
 
-GitHub!
 <br>
 GitHub: [AmarFiguig](https://github.com/amarfiguig)
 
-### Contributions
+## Contributions
 
 - [AmarFiguig](https://github.com/amarfiguig)
+
+## License
+
+N/A
