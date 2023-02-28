@@ -29,13 +29,7 @@ This is a Node.js application that helps users manage an employee database for a
 
 ## Features
 
-- A command-line application for a company database that accepts user input.
-- Tables in command-line will print a easy to read and understand table with proper rows and columns of database data.
-- Ability to view database departments, job roles and employees.
-- Ability to add departments, job roles and employees to database.
-- Ability to delete departments, job roles and employees from database.
-- Ability to edit current employees in databse by job roles and managers.
-- All updates made to database will reflect in tables when prompted on view department, roles or employeees.
+<ul><li>This is a command-line application designed to manage a company's employee database, allowing users to interact with the database through a user-friendly interface.</li><li>The application displays database data in a well-formatted table format, making it easy for users to read and understand.</li><li>Users can view departments, job roles, and employees stored in the database, as well as add new data to the database.</li><li>The application also provides the ability to delete existing data from the database, as well as edit current employee information such as job roles and managers.</li><li>All changes made to the database are reflected in the tables displayed to the user, ensuring that the user always has access to up-to-date information.</li></ul>
 
 ## Production
 
@@ -45,11 +39,12 @@ This is a Node.js application that helps users manage an employee database for a
 
 ## Questions
 
-Please feel free to reach me for additional questions at:
+Please don't hesitate to contact me if you have any further questions or concerns. You can reach me at:
+
 <br>
 Email: myfiguig@gmail.com
 
-Visit my GitHub!
+GitHub!
 <br>
 GitHub: [AmarFiguig](https://github.com/amarfiguig)
 
