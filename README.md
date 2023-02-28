@@ -40,10 +40,10 @@ This is a Node.js application that helps users manage an employee database for a
 Please don't hesitate to contact me if you have any further questions or concerns. You can reach me at:
 
 <br>
-Email: myfiguig@gmail.com
+[Email](myfiguig@gmail.com)
 
 <br>
-GitHub: [AmarFiguig](https://github.com/amarfiguig)
+[GitHub](https://github.com/amarfiguig/)
 
 ## Contributions
 
