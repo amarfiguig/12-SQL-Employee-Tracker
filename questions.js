@@ -5,7 +5,7 @@ const questions = [
 	{
 		type: "list",
 		name: "QuickQuestions.",
-		message: "What would you like to do?",
+		message: "Please let me know how I can assist you today.",
 		choices: [
 			"View all departments",
 			"View all roles",
@@ -25,7 +25,7 @@ const questions = [
 	{
 		type: "input",
 		name: "addDepartment",
-		message: "What is the name of the add department being added?",
+		message: "May I know the name of the department that is being added, please?",
 		when: ({ QuickQuestions }) => {
 			if (QuickQuestions === "Add a department") {
 				return true;
@@ -37,7 +37,7 @@ const questions = [
 			if (departmentInput) {
 				return true;
 			} else {
-				console.log("Please enter a name for the add department!");
+				console.log("Kindly provide a name for the department that you would like to add.");
 				return false;
 			}
 		}
@@ -47,7 +47,7 @@ const questions = [
 	{
 		type: "input",
 		name: "addRoleTitle",
-		message: "What is the title of the add role being added?",
+		message: "May I know the title of the role that is being added, please?",
 		when: ({ QuickQuestions }) => {
 			if (QuickQuestions === "Add a role") {
 				return true;
@@ -69,7 +69,7 @@ const questions = [
 	{
 		type: "number",
 		name: "addRoleSalary",
-		message: "What is the salary of the add role being added?",
+		message: "Could you please provide the salary for the role that is being added?",
 		when: ({ addRoleTitle }) => {
 			if (addRoleTitle) {
 				return true;
@@ -81,7 +81,7 @@ const questions = [
 			if (addRoleSalaryInput) {
 				return true;
 			} else {
-				console.log("Please enter a salary for the add role!");
+				console.log("Kindly provide a salary for the role that you would like to add.");
 				return false;
 			}
 		}
@@ -90,7 +90,7 @@ const questions = [
 	{
 		type: "number",
 		name: "addRoleDepid",
-		message: "What is the department ID of the add role being added?",
+		message: "May I know the department ID of the department to which the role is being added, please?",
 		when: ({ addRoleSalary }) => {
 			if (addRoleSalary) {
 				return true;
@@ -102,7 +102,7 @@ const questions = [
 			if (addRoleDepidInput) {
 				return true;
 			} else {
-				console.log("Please enter a department ID for the add role!");
+				console.log("Kindly provide a department ID for the role that you would like to add.");
 				return false;
 			}
 		}
@@ -112,7 +112,7 @@ const questions = [
 	{
 		type: "input",
 		name: "addEmployeeFirstName",
-		message: "What is the first name of the add employee being added?",
+		message: "May I know the first name of the employee that is being added, please?",
 		when: ({ QuickQuestions }) => {
 			if (QuickQuestions === "Add an employee") {
 				return true;
@@ -124,7 +124,7 @@ const questions = [
 			if (addEmployeeFirstNameInput) {
 				return true;
 			} else {
-				console.log("Please enter a first name for the add employee!");
+				console.log("Kindly provide a first name for the employee that you would like to add.");
 				return false;
 			}
 		}
@@ -134,7 +134,7 @@ const questions = [
 	{
 		type: "input",
 		name: "addEmployeeLastName",
-		message: "What is the last name of the add employee being added?",
+		message: "May I know the last name of the employee that is being added, please?",
 		when: ({ addEmployeeFirstName }) => {
 			if (addEmployeeFirstName) {
 				return true;
@@ -156,7 +156,7 @@ const questions = [
 	{
 		type: "number",
 		name: "addEmployeeRoleId",
-		message: "What is the role ID of the add employee being added?",
+		message: "May I know the role ID of the role that is being assigned to the employee being added, please?",
 		when: ({ addEmployeeLastName }) => {
 			if (addEmployeeLastName) {
 				return true;
@@ -168,7 +168,7 @@ const questions = [
 			if (addEmployeeRoleIdInput) {
 				return true;
 			} else {
-				console.log("Please enter a role ID for the add employee!");
+				console.log("Kindly provide a role ID for the employee that you would like to add.");
 				return false;
 			}
 		}
@@ -178,7 +178,7 @@ const questions = [
 	{
 		type: "number",
 		name: "addEmployeeManagerId",
-		message: "What is the manager ID of the add employee being added?",
+		message: "May I know the manager ID of the manager to whom the employee being added will report, please?",
 		when: ({ addEmployeeRoleId }) => {
 			if (addEmployeeRoleId) {
 				return true;
@@ -192,7 +192,7 @@ const questions = [
 	{
 		type: "number",
 		name: "updateEmployee",
-		message: "What is the employee ID of the employee being updated?",
+		message: "May I know the ID of the employee whose information is being updated, please?",
 		when: ({ QuickQuestions }) => {
 			if (QuickQuestions === "Update an employee") {
 				return true;
@@ -204,7 +204,7 @@ const questions = [
 			if (updateEmployeeInput) {
 				return true;
 			} else {
-				console.log("Please enter the employee ID for the employee being updated!");
+				console.log("Kindly provide the ID of the employee whose information you would like to update.");
 				return false;
 			}
 		}
