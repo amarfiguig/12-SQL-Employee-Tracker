@@ -1,1 +1,26 @@
 
+{
+  "name": "12-sql-employee-tracker",
+  "version": "1.0.0",
+  "description": "12-sql-employee-tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarfiguig/12-SQL-Employee-Tracker.git"
+  },
+  "author": "jorgeebn16",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amarfiguig/12-SQL-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/amarfiguig/12-SQL-Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "mysql2": "^2.2.5"
+  }
+}
